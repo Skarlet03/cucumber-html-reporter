@@ -16,7 +16,8 @@ module.exports = function assertHtmlReports(outputDirectory) {
             return false;
         }
     }
-
+//Bob's changes
+    
     function isDirectoryExists(dir) {
         return fs.existsSync(dir);
     }
